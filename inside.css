@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+
+
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40));
+    background-position: center;
+    background-size: center;
+}
+.navbar{
+    width: 90%;
+   margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 30px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+margin: 8px;
+padding-bottom: 10px;
+padding-right: 10px;
+padding-top: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(22, 20, 20);
+    font-weight: 600;
+    padding: 5px;
+}
+li a:hover{
+ 
+    background-color: rgb(18, 184, 151);
+    color: white;
+ 
+}
+.navbar a:hover{
+    color: rgb(255, 255, 255);
+}
+.content{
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.content h1{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.content h1 span{
+    color: rgb(232, 45, 45);
+}
+button{
+    width: 150px;
+    padding: 15px;
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 30px;
+    color: black;
+    border: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover{
+    background-color: rgb(18, 184, 151);
+    color: white;
+}
+.banner video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio: 16/9){
+    .banner video{
+        width: 100%;
+        height: auto;
+    }
+}
+#product1 h2{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 20px;
+}
+
+
+#product1{
+    text-align: center;
+    
+
+} 
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+} 
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid white;
+    cursor: pointer;
+   margin: 15px 0;
+   position: relative;
+}
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+#product1 .pro .des span{
+    color: black;
+    font-size: 12px;
+}
+#product1 .pro .des h5{
+ padding-top: 7px;
+    color: black;
+    font-size: 14px;
+}
+#product1 .pro .des i{
+    font-size: 12px;
+    color: rgb(244, 206, 108);
+}
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font: 15px;
+    font-weight: 700;
+}
+#product1 .pro .cart{
+    color: rgb(0, 0, 0);
+}
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(top-view-women-man-accessoires-travel-concept-white-black-mobile-phone-airplane-hat-passport-watch-sunglasses-shoes-key-wood-table.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+#banner h4{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+#banner h2{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#banner h2 span{
+color: rgb(232, 45, 45);
+}
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color:black;
+    background-color:white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    
+
+}
+#banner button:hover{
+    background-color: rgb(18, 184, 151);
+    color: white;
+
+
+}
+footer{
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer h4{
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    font-size: 13px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    
+}
+footer .follow i{
+
+    padding-right: 4px;
+    cursor: pointer;
+
+}
+
+footer.intall .row img{
+    border: 1px solid cadetblue ;
+    border-radius: 6px;
+
+
+}
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+footer .follow i:hover,footer .col a:hover{
+    background-color: rgb(18, 184, 151);
+    color: white;
+
+
+}
+#inside{
+    display: flex;
+    margin-top: 20px;
+}
+#inside .mainimg{
+width: 40%;
+
+
+object-fit: cover;
+
+    margin-right: 90%;
+    margin: 20px;
+
+
+}
+.smallimggrp{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.smallimg{
+    flex-basis: 32%;
+    cursor: pointer;
+}
+#inside .pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+#inside .pro-details h4{
+    padding: 40px 0 20px 0;
+    font-size: 26px;
+}
+
+#inside .pro-details h2{
+    font-size: 26px;
+}
+#inside .pro-details select{
+    margin: block ;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+#inside .pro-details input{
+    width: 40px;
+    height: 40px;
+    padding-left:10px ;
+    font-size: 16px;
+    margin-right: 10px;
+    
+}
+#inside .pro-details input:focus{
+    outline: none;
+}
+button{
+    background-color: rgb(18, 184, 151);
+    color: white;
+}
+button:hover{
+    background-color: rgb(18, 184, 151);
+    color: white;
+}
+#inside .pro-details input span{
+    line-height: 25px;
+}

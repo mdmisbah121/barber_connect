@@ -1,0 +1,110 @@
+ 
+ 
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" >
+    <link rel="stylesheet" href="saloon.css">
+</head>
+<body>
+  <div class="banner">
+    <video autoplay loop muted plays-inline>
+        <source src="c:\Users\DELL\OneDrive\Desktop\saloon\7697535-hd_1920_1080_30fps.mp4" type="video/mp4">
+    </video>
+    <div class="navbar">
+        <img class="logo" src="#">
+        
+        <div class="location-bar">
+            <input type="text" id="locationInput" placeholder="Enter your location">
+        </div>
+    
+      
+    
+        <script>
+            function getLocation() {
+                const locationInput = document.getElementById('locationInput').value;
+                if(locationInput) {
+                    alert('Searching for: ' + locationInput);
+                    // You can integrate with a map API (like Google Maps API) to search for the location
+                } else {
+                    alert('Please enter a location');
+                }
+            }
+        </script>
+        <ul>
+          <li><a href="saloon.html">Home<i class=></i></a></li>
+            <li><a class="active"href="register.php">Signup<i class="fa fa-user"></i></a></li>
+            <li><a href="booknow.html">Book now</a></li>
+           
+           
+            <li><a href="aboutus.html">Support<i class="fa fa-phone" ></i></a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1> UPTO <span>30% Off</span> ON YOUR FIRST APPOINTMENT</h1>
+        <div>
+            <button id="bookbutton" type="button">BOOK NOW</button>
+            
+
+<script>
+    // Function to be executed when the button is clicked
+    function loadHTMLFile() {
+        // You can change 'path/to/your/file.html' to the actual path of your HTML file
+        window.location.href = 'booknow.html';
+    }
+
+    // Get the button element by its id
+    var button = document.getElementById('bookbutton');
+
+    // Attach the click event listener to the button
+    button.addEventListener('click', loadHTMLFile);
+</script>
+
+
+
+        </div>
+    </div>
+</div>
+
+<footer class="last">
+    <div class="col">
+      <img src="logo.jpg">
+      <h4>Contact</h4>
+      <p><strong> address:</strong> kjsvnvsklvsvklvs vf</p>
+      <p><strong>Phone no:</strong>7491806583</p>
+      <div class="follow">
+        <h4>follow us</h4>
+        <div class="icon">
+          <i class="fab fa-facebook"> </i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+  
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>My account </h4>
+      <a href="register.php">Delivery information </a>
+      <a href="#">privacy policy </a>
+      <a href="#">terms & conditions</a>
+      <a href="aboutus.html">contact us </a>
+  
+    </div>
+  <div class="install">
+    <h4>Install app</h4>
+    <p>from app store or google play </p>
+    <div class="row">
+      <img src="" alt="">
+      <img src="" alt="">
+    </div>
+    <p>secured payment gateway</p>
+    <img src="" alt="">
+  
+  </div>
+  </footer>
+  </body>
+  </html>
+  
