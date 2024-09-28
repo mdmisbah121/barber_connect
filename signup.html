@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login & Registration Form</title>
+  <!---Custom CSS File--->
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+      <header>Login</header>
+      <form action="#">
+        <input type="text" placeholder="Enter your email">
+        <input type="password" placeholder="Enter your password">
+        <a href="#">Forgot password?</a>
+        <input id="loginbutton" type="button" class="button" value="Login">
+        
+<script>
+    // Function to be executed when the button is clicked
+    function loadHTMLFile() {
+        // You can change 'path/to/your/file.html' to the actual path of your HTML file
+        window.location.href = 'saloon.html';
+    }
+
+    // Get the button element by its id
+    var button = document.getElementById('loginbutton');
+
+    // Attach the click event listener to the button
+    button.addEventListener('click', loadHTMLFile);
+</script>
+
+      </form>
+      <div class="signup">
+        <span class="signup">Don't have an account?
+         <label for="check">Signup</label>
+        </span>
+      </div>
+    </div>
+    <div class="registration form">
+      <header>Signup</header>
+      <form action="#">
+        <input type="text" placeholder="Enter your email">
+        <input type="password" placeholder="Create a password">
+        <input type="password" placeholder="Confirm your password">
+        <input id="signupbutton" type="button" class="button" value="Signup">
+        
+<script>
+    // Function to be executed when the button is clicked
+    function loadHTMLFile() {
+        // You can change 'path/to/your/file.html' to the actual path of your HTML file
+        window.location.href = 'signup.html';
+    }
+
+    // Get the button element by its id
+    var button = document.getElementById('signupbutton');
+
+    // Attach the click event listener to the button
+    button.addEventListener('click', loadHTMLFile);
+</script>
+
+      </form>
+      <div class="signup">
+        <span class="signup">Already have an account?
+         <label for="check">Login</label>
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
